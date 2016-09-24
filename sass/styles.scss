@@ -1,1 +1,116 @@
-@import "css/bootstrap-min.css";
+@import "../stylesheets/font-awesome.css";
+$p_clr: #506a85;
+$btn_clr: #00bc9c;
+$h_top:#f5f7fa;
+$brd_bottom:#e6e9ed;
+$info_sz: 12px;
+$nav:15px;
+$ff_SSP:'Source Sans Pro', sans-serif;
+.col{
+	color:red;
+	background:red;
+}
+a:hover{
+	text-decoration:none;
+}
+.header{
+	.header-top{
+		font-family:$ff_SSP;
+		background:$h_top;
+		border-bottom:1px solid $brd_bottom;
+		.info{
+			padding: 10px 0px;
+			.email, .phone{
+				display:inline;
+				margin:0 15px ;
+				span{
+					margin-right:8px;
+				}
+				a{
+					margin-left:8px;
+					font-size:$info_sz;
+					color:$p_clr;
+				}
+			}
+			.email a:hover{
+				color:$btn_clr;
+			}
+		}
+	}
+	.socia{
+		span{
+			line-height: 40px;
+			padding:0 10px;
+		}
+		a{	
+			color:$p_clr;
+		}	
+		a:hover .fa-facebook{
+			background: #4668b3;
+			color:white;
+		}
+		a:hover .fa-google{
+			background: #de5745;
+			color:white;
+		}
+		a:hover .fa-twitter{
+			background: #2fbbed;
+			color:white;
+		}
+		a:hover .fa-pinterest{
+			background: #d94348;
+			color:white;
+		}
+		a:hover .fa-behance{
+			background: #3079ff;
+			color:white;
+		}
+		a:hover .fa-dribbble{
+			background: #eb6397;
+			color:white;
+		}
+	}
+	.nav{
+		border-bottom:1px solid #e6e9ed;
+		font-family: $ff_SSP;
+		font-weight: bolder;
+		font-size: $nav;
+		img{
+			width:auto;
+			margin: 36px 0;
+		}
+		
+		ul{
+			text-align: center;
+			list-style-type: none;
+			margin:0;
+			li{
+				position: relative;
+				text-transform: uppercase;
+				display:inline-block;
+				margin:45px 21px;
+				a{
+					color:$p_clr;
+					text-decoration:none;
+				}
+				a:hover{
+					color:$btn_clr;
+				}
+				
+				.list{
+					display:none;
+					position: absolute;
+					margin:0;
+					padding: 0;
+					background: red;
+				}
+			}
+
+		}
+		span{
+			text-align: right;
+			line-height:111px;
+			color:$p_clr;
+		}
+	}
+}
