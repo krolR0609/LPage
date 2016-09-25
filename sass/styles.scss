@@ -1,11 +1,41 @@
 @import "../stylesheets/font-awesome.css";
+/* base */
 $p_clr: #506a85;
 $btn_clr: #00bc9c;
 $h_top:#f5f7fa;
-$brd_bottom:#e6e9ed;
+$btn_fs:18px;
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+
+/* end base */
+
+/* header */
 $info_sz: 12px;
 $nav:15px;
 $ff_SSP:'Source Sans Pro', sans-serif;
+$h_top:#f5f7fa;
+$brd_bottom:#e6e9ed;
+/* end header */
+
+/* main*/
+$main_clr:white;
+$pm_clr:#a3b1bf;
+$ff_lato:'Lato', sans-serif;
+$fs_h1:78px;
+$ff_p:22px;
+$fs_h2:44px;
+/* end main*/
+*{
+	margin:0;
+	padding:0;
+}
+/* repeating elements*/
 .col{
 	color:red;
 	background:red;
@@ -13,6 +43,29 @@ $ff_SSP:'Source Sans Pro', sans-serif;
 a:hover{
 	text-decoration:none;
 }
+.button{
+	color:$main_clr;
+	background:$btn_clr;
+	font-size: $btn_fs;
+	font-weight:bold;
+	padding:19px 0px;
+	border-bottom:2px solid #00a085;
+	@include border-radius(4px);
+	cursor:pointer;
+	text-transform:uppercase;
+}
+.button:hover{
+	background:#17a78b;
+	border-bottom:2px solid #148e76;
+}
+.button:active{
+	border-bottom:1px solid #148e76;
+}
+.left{
+	float:right;
+}
+/* end rep el*/
+
 .header{
 	.header-top{
 		font-family:$ff_SSP;
@@ -22,7 +75,7 @@ a:hover{
 			padding: 10px 0px;
 			.email, .phone{
 				display:inline;
-			
+
 				span{
 					margin-right:8px;
 				}
@@ -36,7 +89,7 @@ a:hover{
 				color:$btn_clr;
 			}
 			.phone{
-					margin:0 30px ;
+				margin:0 30px ;
 			}
 		}
 	}
@@ -125,6 +178,165 @@ a:hover{
 		span:after{
 			content:"";
 			clear:both;
+		}
+	}
+}
+.main{
+	h1{
+		margin:0;
+		text-transform: uppercase;
+		font-size: $fs_h1;
+	}
+	h2{
+		color:$p_clr;
+		font-size: $fs_h2;
+		font-weight: bold;
+	}
+	font-family:$ff_lato;
+	color:$main_clr;
+	font-weight:black;
+	position:relative;
+	.hero{
+		height: 880px;
+		position: relative;
+		background: url('../img/main/item1.png');
+		img{
+			width:100%;
+			position: absolute;
+		}
+		.container{
+			text-align: center;
+			.row{
+				margin: 300px 0;
+				.item{
+					p{
+						margin: 20px 0 ;
+						padding: 0;
+						font-size:24px;
+						color:$pm_clr;
+					}
+					.button{
+						margin-top:25px ;
+					}
+				}
+			}
+		}
+	}
+	.wwa{
+		height: 670px;
+		.container{
+			text-align: center;
+			.row{
+				h2{
+					font-weight:bold;
+					margin-bottom: 40px;
+
+					margin-top: 130px;
+				}
+				h3{
+					color:$p_clr;
+					font-size: 26px;
+					font-weight: bold;
+					margin: 0;
+					margin-bottom: 35px;
+				}
+				p{
+					color:$pm_clr;
+					font-size: 22px;
+					margin-bottom: 80px;
+				}
+				.column{
+
+					text-align: left;
+					p{
+						font-size: 16px;
+						margin:0;
+						padding-bottom: 10px;
+					}
+					img{
+						width:60px;
+					}
+				}
+			}
+		}
+	}
+
+	.latest-work{
+		background: #f2f5f7;
+		.container{
+			padding:0;
+		}
+		.row{
+			margin:0;
+			h2{
+				margin-top: 130px;
+			}
+			p{
+				margin-top: 40px;
+				color:#73879c;
+				font-size: 20px;
+			}
+			.figure{
+				margin-top: 80px;
+				background: white;
+				text-align: center;
+				height: 500px;
+				width:570px;
+				padding: 0;
+				border-bottom: 2px solid grey;
+				img{
+					height: 390px;
+					width:100%;
+					background: $btn_clr;
+					
+				}
+				h4{
+					font-size:20px;
+					font-weight: bold;
+					color:$p_clr;
+					margin-top:35px;
+				}
+				p{
+					margin: 0;
+					font-size:14px;
+					color:#73879c;
+				}
+			}
+			.slider{
+				margin-top: 80px;
+			}
+			.indicators{
+				margin-top: 45px;
+				margin-bottom: 90px;
+				text-align: center;
+				.item{
+					overflow: visible;
+					display: inline-block;
+					background: url("../img/icon/indicator.png") no-repeat ;
+					width: 15px;
+					cursor:pointer;
+					margin: 0 5px;
+				}
+				.active{
+					background: url("../img/icon/indicatora.png") no-repeat ;
+				}
+			}
+		}
+	}
+	.get-in-touch{
+		text-align: center;
+		h2{
+			margin-top: 130px;
+		}
+		p{
+			margin-top: 25px;
+			text-size:22px;
+			color:$p_clr;
+		}
+		.button{
+			margin-top: 25px;
+			font-size: 15px;
+			margin-bottom: 130px;
 		}
 	}
 }
