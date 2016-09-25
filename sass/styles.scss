@@ -22,7 +22,7 @@ a:hover{
 			padding: 10px 0px;
 			.email, .phone{
 				display:inline;
-				margin:0 15px ;
+			
 				span{
 					margin-right:8px;
 				}
@@ -35,9 +35,13 @@ a:hover{
 			.email a:hover{
 				color:$btn_clr;
 			}
+			.phone{
+					margin:0 30px ;
+			}
 		}
 	}
-	.socia{
+	.socia{ 
+		text-align: right;
 		span{
 			line-height: 40px;
 			padding:0 10px;
@@ -75,9 +79,11 @@ a:hover{
 		font-family: $ff_SSP;
 		font-weight: bolder;
 		font-size: $nav;
+		text-align: right;
 		img{
 			width:auto;
-			margin: 36px 0;
+			margin: 36px 8px;
+			padding: 0;
 		}
 		
 		ul{
@@ -96,7 +102,7 @@ a:hover{
 				a:hover{
 					color:$btn_clr;
 				}
-				
+
 				.list{
 					display:none;
 					position: absolute;
@@ -108,9 +114,17 @@ a:hover{
 
 		}
 		span{
-			text-align: right;
-			line-height:111px;
+
+			float:right;
+			margin:45px 0;
 			color:$p_clr;
+		}
+		span:hover{
+			color:$btn_clr;
+		}
+		span:after{
+			content:"";
+			clear:both;
 		}
 	}
 }
