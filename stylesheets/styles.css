@@ -5,35 +5,35 @@
 /* end header */
 /* main*/
 /* end main*/
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000337}}
 * {
   margin: 0;
   padding: 0;
 }
 
 /* unic elements*/
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000342}}
 body {
   min-width: 580px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000345}}
 .row {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000348}}
 .col {
   color: red;
   background: red;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000352}}
 a:hover {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000355}}
 .button {
   color: white;
   background: #00bc9c;
@@ -49,122 +49,122 @@ a:hover {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000366}}
 .button:hover {
   background: #17a78b;
   border-bottom: 2px solid #148e76;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000370}}
 .button:active {
   border-bottom: 1px solid #148e76;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000373}}
 .left {
   float: right;
 }
 
 /* end rep el*/
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000379}}
 .header {
   min-width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000381}}
 .header .header-top {
   font-family: "Source Sans Pro", sans-serif;
   background: #f5f7fa;
   border-bottom: 1px solid #e6e9ed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000385}}
 .header .header-top .info {
   padding: 10px 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000387}}
 .header .header-top .info .email, .header .header-top .info .phone {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000390}}
 .header .header-top .info .email span, .header .header-top .info .phone span {
   margin-right: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000393}}
 .header .header-top .info .email a, .header .header-top .info .phone a {
   margin-left: 8px;
   font-size: 12px;
   color: #506a85;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000399}}
 .header .header-top .info .email a:hover {
   color: #00bc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003102}}
 .header .header-top .info .phone {
   margin: 0 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003107}}
 .header .socia {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003109}}
 .header .socia span {
   line-height: 40px;
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003113}}
 .header .socia a {
   color: #506a85;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003116}}
 .header .socia a:hover .fa-facebook {
   background: #4668b3;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003120}}
 .header .socia a:hover .fa-google {
   background: #de5745;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003124}}
 .header .socia a:hover .fa-twitter {
   background: #2fbbed;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003128}}
 .header .socia a:hover .fa-pinterest {
   background: #d94348;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003132}}
 .header .socia a:hover .fa-behance {
   background: #3079ff;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003136}}
 .header .socia a:hover .fa-dribbble {
   background: #eb6397;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003141}}
 .header .nav {
   border-bottom: 1px solid #e6e9ed;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bolder;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003147}}
 .header .nav img {
   width: auto;
   margin: 36px 8px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003152}}
 .header .nav ul {
   text-align: center;
   list-style-type: none;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003156}}
 .header .nav ul li {
   position: relative;
   text-transform: uppercase;
@@ -172,16 +172,16 @@ a:hover {
   line-height: 113px;
   margin: 45px 21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003162}}
 .header .nav ul li a {
   color: #506a85;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003166}}
 .header .nav ul li a:hover {
   color: #00bc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003170}}
 .header .nav ul li .list {
   display: none;
   position: absolute;
@@ -189,22 +189,22 @@ a:hover {
   padding: 0;
   background: red;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003180}}
 .header .nav span {
   margin: 45px 0;
   color: #506a85;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003185}}
 .header .nav span:hover {
   color: #00bc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003188}}
 .header .nav span:after {
   content: "";
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003194}}
 .main {
   min-width: 300px;
   font-family: "Lato", sans-serif;
@@ -212,60 +212,64 @@ a:hover {
   font-weight: black;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003196}}
 .main asd
 h1 {
   margin: 0;
   text-transform: uppercase;
   font-size: 78px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003202}}
 .main h2 {
   color: #506a85;
   font-size: 44px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003211}}
 .main .hero {
   height: 880px;
   position: relative;
   background: url("../img/main/item1.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003215}}
 .main .hero img {
   width: 100%;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003219}}
 .main .hero .container {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003221}}
 .main .hero .container .row {
   margin: 300px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003224}}
 .main .hero .container .row .item p {
   margin: 20px 0;
   padding: 0;
   font-size: 24px;
   color: #a3b1bf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003230}}
 .main .hero .container .row .item .button {
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003238}}
 .main .wwa .container {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003240}}
+.main .wwa .container .row:last-child {
+  padding-bottom: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003245}}
 .main .wwa .container .row h2 {
   font-weight: bold;
   margin-bottom: 40px;
   margin-top: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003251}}
 .main .wwa .container .row h3 {
   color: #506a85;
   font-size: 26px;
@@ -273,78 +277,83 @@ h1 {
   margin: 0;
   margin-bottom: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003258}}
 .main .wwa .container .row p {
   color: #a3b1bf;
   font-size: 22px;
   margin-bottom: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003263}}
 .main .wwa .container .row .column {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003266}}
 .main .wwa .container .row .column p {
   font-size: 16px;
   margin: 0;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003278}}
 .main .latest-work {
   background: #f2f5f7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003280}}
 .main .latest-work .container {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003284}}
 .main .latest-work .row h2 {
   margin-top: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003287}}
 .main .latest-work .row p {
   margin-top: 40px;
   color: #73879c;
   font-size: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003292}}
 .main .latest-work .row .figure {
   float: left;
   margin-top: 80px;
-  background: white;
   text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003297}}
+.main .latest-work .row .figure .bomb {
+  background: white;
   border-bottom: 2px solid grey;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003301}}
 .main .latest-work .row .figure img {
   height: 390px;
   width: 100%;
   background: #00bc9c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003307}}
 .main .latest-work .row .figure h4 {
   font-size: 20px;
   font-weight: bold;
   color: #506a85;
-  margin-top: 35px;
+  padding-top: 35px;
+  margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003314}}
 .main .latest-work .row .figure p {
   margin: 0;
   font-size: 14px;
   color: #73879c;
+  padding-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003321}}
 .main .latest-work .row .slider {
   margin-top: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003324}}
 .main .latest-work .row .indicators {
   margin-top: 45px;
   margin-bottom: 90px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003328}}
 .main .latest-work .row .indicators .item {
   overflow: visible;
   display: inline-block;
@@ -353,40 +362,40 @@ h1 {
   cursor: pointer;
   margin: 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003336}}
 .main .latest-work .row .indicators .active {
   background: url("../img/icon/indicatora.png") no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003342}}
 .main .get-in-touch {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003344}}
 .main .get-in-touch h2 {
   margin-top: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003347}}
 .main .get-in-touch p {
   margin-top: 25px;
   text-size: 22px;
   color: #506a85;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003352}}
 .main .get-in-touch .button {
   margin-top: 25px;
   font-size: 15px;
   margin-bottom: 130px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003359}}
 .footer {
   background: #2f4052;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003362}}
 .footer .block {
   padding-bottom: 75px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003365}}
 .footer h5 {
   margin-top: 75px;
   font-size: 16px;
@@ -394,14 +403,14 @@ h1 {
   color: white;
   margin-bottom: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003372}}
 .footer p {
   font-size: 14px;
   color: #a3b1bf;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003378}}
 .footer a {
   font-size: 15px;
   color: #a3b1bf;
@@ -409,25 +418,25 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003385}}
 .footer p + a > span, .footer .call, .footer img + p {
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003388}}
 .footer #arrow {
   font-size: 10px;
   margin-left: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003392}}
 .footer span {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003395}}
 .footer img {
   margin-bottom: 5px;
   width: 125px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003399}}
 .footer input[type="text"] {
   float: left;
   padding: 15px 20px;
@@ -438,16 +447,16 @@ h1 {
   font-size: 12px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003409}}
 .footer input[type="text"]:focus {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003412}}
 .footer .inp {
   background: #4e5c6c;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003416}}
 .footer .button {
   position: absolute;
   right: 5px;
@@ -458,7 +467,7 @@ h1 {
   padding: 8px 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003426}}
 .footer-end {
   color: #707e8c;
   background: #283645;
@@ -466,16 +475,16 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003433}}
 .footer-end ul {
   list-style-type: disc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003436}}
 .footer-end li {
   position: relative;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003440}}
 .footer-end li:after {
   position: absolute;
   content: "";
@@ -485,17 +494,17 @@ h1 {
   top: 10px;
   background: #707e8c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003449}}
 .footer-end li:first-child:after {
   width: 0;
   height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003453}}
 .footer-end a {
   margin-left: 25px;
   color: #707e8c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/J\:\/Git\/LPage\/sass\/styles\.scss}line{font-family:\00003457}}
 .footer-end span, .footer-end li {
   margin: 35px 0;
 }
